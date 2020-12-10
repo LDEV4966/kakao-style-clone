@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome tokakao Clone</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>50%</span>
+        <i class="fas fa-battery-half fa-2x"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">Welcome to kakao Clone</h1>
+      <p class="welcome-header__text">
+        If you have a kakao Account, <br />
+        log in with your email or phone number.
+      </p>
+    </header>
+    <form class="login-form" action="friends.html" method="GET">
+      <!-- we have to use method = "POST" , but no backend server-->
+      <input
+        name="username"
+        type="text"
+        required
+        placeholder="Email or phone numner"
+      />
+      <input
+        name="userpassword"
+        type="password"
+        required
+        placeholder="Password"
+      />
+      <input type="submit" value="Log in" />
+
+      <a href="friends.html">Find kakao Account or Password</a>
+    </form>
+    <!--Fontawsome-->
+    <script
+      src="https://kit.fontawesome.com/cde7b33783.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
