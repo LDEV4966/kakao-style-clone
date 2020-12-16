@@ -1,0 +1,26 @@
+.user-component {
+  display: flex;
+  padding: 15px 0px;
+  margin: 0px 15px;
+  border: none;
+  border-bottom: 1px solid #d4d4d4;
+}
+.user-component__column {
+  display: flex;
+}
+.user-component__avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 30px;
+}
+.user-component__subtitle {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.user-component__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+}
