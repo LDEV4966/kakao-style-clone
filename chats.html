@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome tokakao Clone</title>
+  </head>
+  <body>
+    <!--status-bar start-->
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>50%</span>
+        <i class="fas fa-battery-half fa-2x"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+    <!--status-bar end-->
+    <main class="main-screen">
+      <!--screen-header start-->
+      <header class="screen-header">
+        <h1 class="screen-header__title">Chats</h1>
+        <div class="screen-header__icons">
+          <span><i class="fas fa-search fa-lg"></i></span>
+          <span><i class="far fa-comment-dots fa-lg"></i></span>
+          <span><i class="fas fa-music fa-lg"></i></span>
+          <span><i class="fas fa-cog fa-lg"></i></span>
+        </div>
+      </header>
+      <!--screen-header end-->
+      <ul class="main-screen__chats-list">
+        <li class="main-screen__chats-btn">
+          <a href="friends.html" class="main-screen__chats-link">
+            <div class="user-component">
+              <div class="user-component__column">
+                <img
+                  src="Screenshots/01.png"
+                  alt="user"
+                  class="user-component__avatar"
+                />
+                <div class="user-component__text">
+                  <h4 class="user-component__title">KaKaoTalk</h4>
+                  <h6 class="user-component__subtitle">
+                    Hi, seungmin Lee. I would like to ...
+                  </h6>
+                </div>
+              </div>
+              <div
+                class="user-component__column user-component__column-vertical"
+              >
+                <span class="user-component__time">22:12</span>
+                <div class="badge">1</div>
+              </div>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </main>
+    <!--nav start-->
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="far fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification badge">1</span>
+            <i class="fas fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="#"><i class="fas fa-search fa-2x"></i></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="#">
+            <div class="nav__notification no-number"></div>
+            <i class="fas fa-ellipsis-h fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <!--nav end-->
+    <!--Fontawsome-->
+    <script
+      src="https://kit.fontawesome.com/cde7b33783.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
