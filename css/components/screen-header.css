@@ -9,6 +9,12 @@
   font-weight: 600;
 }
 
+.screen-header__icons {
+  display: flex;
+  flex-direction: row;
+}
 .screen-header__icons span {
   margin-left: 18px;
+  display: block;
+  position: relative;
 }

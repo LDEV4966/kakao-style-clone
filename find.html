@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome tokakao Clone</title>
+  </head>
+  <body>
+    <!--status-bar start-->
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>50%</span>
+        <i class="fas fa-battery-half fa-2x"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+    <main class="main-screen">
+      <header class="screen-header">
+        <h1 class="screen-header__title">Find</h1>
+        <div class="screen-header__icons">
+          <span><i class="fas fa-search fa-lg"></i></span>
+          <span>
+            <div class="nav__notification no-number"></div>
+            <i class="fas fa-cog fa-lg"></i>
+          </span>
+        </div>
+      </header>
+      <div class="find-icons">
+        <div class="find-icons__icon">
+          <i class="fas fa-qrcode"></i><span>QR Code</span>
+        </div>
+        <div class="find-icons__icon">
+          <i class="far fa-address-book"></i><span>Add by Contracts</span>
+        </div>
+        <div class="find-icons__icon">
+          <i class="fas fa-fingerprint"></i><span>Add by ID</span>
+        </div>
+        <div class="find-icons__icon">
+          <i class="far fa-envelope"></i><span>Invite</span>
+        </div>
+      </div>
+      <div class="recommended-friends">
+        <div>
+          <h6 class="recommended-friends__title">Recommended Friends</h6>
+        </div>
+        <span> You have no recommended friends. </span>
+      </div>
+      <div class="open-chat">
+        <div class="open-chat__header">
+          <h6>Open Chat</h6>
+          <a class="open-chat__link" href="#">
+            <span
+              >Go to Openchat Home<i class="fas fa-chevron-right fa-xs"></i
+            ></span>
+          </a>
+        </div>
+        <div class="open-post__bunble">
+          <div class="open-post">
+            <div class="open-post__column">
+              <h5 class="open-post__title">#BTS</h5>
+              <h6 class="open-post__hashtags">#bts#army#friends</h6>
+              <div class="open-post__members">
+                <img
+                  src="./Screenshots/bts.png"
+                  class="open-post__members-picture"
+                />
+                <span class="open-post__member-count"> 802 members </span>
+                <div class="divider">|</div>
+                <div
+                  class="open-post__memeber-status open-post__memeber-status-active"
+                >
+                  Active
+                </div>
+              </div>
+            </div>
+            <div class="open-post__column">
+              <img
+                class="open-post__title-picure"
+                src="./Screenshots/bts.png"
+              />
+              <div class="open-post__like">
+                <i class="fas fa-heart"></i>
+                <span class="open-post__like-count">326</span>
+              </div>
+            </div>
+          </div>
+          <div class="open-post">
+            <div class="open-post__column">
+              <h5 class="open-post__title">Bts Gang~</h5>
+              <h6 class="open-post__hashtags">#jimin#englishonly#ipur..</h6>
+              <div class="open-post__members">
+                <img
+                  src="./Screenshots/01.png"
+                  class="open-post__members-picture"
+                />
+                <span class="open-post__member-count"> 299 members </span>
+                <div class="divider">|</div>
+                <div class="open-post__memeber-status">Non Active</div>
+              </div>
+            </div>
+            <div class="open-post__column">
+              <img
+                class="open-post__title-picure"
+                src="./Screenshots/jimin.png"
+              />
+              <div class="open-post__like">
+                <i class="fas fa-heart"></i>
+                <span class="open-post__like-count">926</span>
+              </div>
+            </div>
+          </div>
+          <div class="open-post">
+            <div class="open-post__column">
+              <h5 class="open-post__title">Play with me</h5>
+              <h6 class="open-post__hashtags">#sm#seungmin#html#css</h6>
+              <div class="open-post__members">
+                <img
+                  src="./Screenshots/user.png"
+                  class="open-post__members-picture"
+                />
+                <span class="open-post__member-count"> 89 members </span>
+                <div class="divider">|</div>
+                <div
+                  class="open-post__memeber-status open-post__memeber-status-active"
+                >
+                  Active
+                </div>
+              </div>
+            </div>
+            <div class="open-post__column">
+              <img
+                class="open-post__title-picure"
+                src="./Screenshots/user.png"
+              />
+              <div class="open-post__like">
+                <i class="fas fa-heart"></i>
+                <span class="open-post__like-count">116</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!--status-bar end-->
+
+    <!--nav start-->
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="far fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification badge">1</span>
+            <i class="far fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"
+            ><i class="fas fa-search fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="#">
+            <div class="nav__notification no-number"></div>
+            <i class="fas fa-ellipsis-h fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <!--nav end-->
+    <!--Fontawsome-->
+    <script
+      src="https://kit.fontawesome.com/cde7b33783.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -12,3 +12,9 @@
   border-radius: 100%;
   background-color: #ff6229;
 }
+.no-number {
+  top: -8px;
+  width: 7px;
+  height: 7px;
+  left: 100%;
+}
