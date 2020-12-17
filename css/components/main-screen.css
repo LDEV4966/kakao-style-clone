@@ -1,0 +1,16 @@
+.main-screen__channel-header {
+  border: none;
+  border-top: 1px solid #d4d4d4;
+}
+.main-screen__channel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.main-screen__channel-text {
+  padding-top: 8px;
+  font-size: 12px;
+  font-weight: 500;
+  opacity: 0.5;
+}

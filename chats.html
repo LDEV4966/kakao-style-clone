@@ -22,86 +22,60 @@
         <i class="fas fa-bolt"></i>
       </div>
     </div>
-    <!--status-bar end-->
+    <!--status-bar end check it-->
+
     <main class="main-screen">
+      <!--screen-header start-->
       <header class="screen-header">
-        <h1 class="screen-header__title">Friends</h1>
+        <h1 class="screen-header__title">Chats</h1>
         <div class="screen-header__icons">
           <span><i class="fas fa-search fa-lg"></i></span>
+          <span><i class="far fa-comment-dots fa-lg"></i></span>
           <span><i class="fas fa-music fa-lg"></i></span>
           <span><i class="fas fa-cog fa-lg"></i></span>
         </div>
       </header>
-      <!-- LOCAL AREA-->
-      <a id="friends-display-link" href="#">
-        <i class="fas fa-info-circle"></i>
-        <span class="friends-display-link__title">Friends Names Display</span>
-        <i class="fas fa-chevron-right fa-xs"></i>
-      </a>
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            src="Screenshots/user.png"
-            alt="user"
-            class="user-component__avatar user-component__avatar--xl"
-          />
-          <div class="user-component__text">
-            <h4 class="user-component__title">Lee seung min</h4>
-            <!--<h6 class="user-component__subtitle"></h6>-->
-          </div>
-        </div>
-        <div class="user-component__column"></div>
-      </div>
-      <div class="main-screen__channel">
-        <div class="main-screen__channel-header">
-          <span class="main-screen__channel-text">Channel</span>
-          <button class="user-component__chevron-btn" type="button">
-            <i class="fas fa-chevron-up fa-xs"></i>
-          </button>
-        </div>
-        <ul class="main-screen__channel-list">
-          <li class="main-screen__channel-btn">
+      <!--screen-header end-->
+      <ul class="main-screen__chats-list">
+        <li class="main-screen__chats-btn">
+          <a href="friends.html" class="main-screen__chats-link">
             <div class="user-component">
               <div class="user-component__column">
                 <img
                   src="Screenshots/01.png"
-                  alt="channel"
-                  class="user-component__avatar user-component__avatar--xs"
+                  alt="user"
+                  class="user-component__avatar"
                 />
                 <div class="user-component__text">
-                  <h4
-                    class="user-component__title user-component__title--not-bold"
-                  >
-                    Channel
-                  </h4>
-                  <!--<h6 class="user-component__subtitle"></h6>-->
+                  <h4 class="user-component__title">KaKaoTalk</h4>
+                  <h6 class="user-component__subtitle">
+                    Hi, seungmin Lee. I would like to ...
+                  </h6>
                 </div>
               </div>
-              <div class="user-component__column user-component__column-horizontal">
-                <span>2</span>
-                <button class="user-component__chevron-btn" type="button">
-                  <i class="fas fa-chevron-right fa-xs"></i>
-                </button>
+              <div
+                class="user-component__column user-component__column-vertical"
+              >
+                <span class="user-component__time">22:42</span>
+                <div class="badge">1</div>
               </div>
             </div>
-          </li>
-        </ul>
-      </div>
+          </a>
+        </li>
+      </ul>
     </main>
-    <!-- LOCAL AREA-->
-
     <!--nav start-->
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__btn">
           <a class="nav__link" href="friends.html"
-            ><i class="fas fa-user fa-2x"></i
+            ><i class="far fa-user fa-2x"></i
           ></a>
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
             <span class="nav__notification badge">1</span>
-            <i class="far fa-comment fa-2x"></i>
+            <i class="fas fa-comment fa-2x"></i>
           </a>
         </li>
         <li class="nav__btn">
