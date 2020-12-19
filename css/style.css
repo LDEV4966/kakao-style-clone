@@ -4,6 +4,7 @@
 @import "screens/login.css";
 @import "screens/friends.css";
 @import "screens/chats.css";
+@import "screens/chat.css";
 @import "screens/find.css";
 @import "screens/more.css";
 @import "screens/setting.css";
@@ -11,6 +12,7 @@
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
+@import "components/alt-screen-header.css";
 @import "components/user-component.css";
 @import "components/main-screen.css";
 @import "components/badge.css";
@@ -20,7 +22,6 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   padding-top: 30px;
   color: #2f363e;
-  overflow: hidden; /* scroll 숨김 */
 }
 .main-screen {
   padding: 0px var(--horizontal-space);
