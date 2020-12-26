@@ -80,6 +80,10 @@
   align-items: center;
   padding: 5px 25px;
   box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
+}
+.reply:focus-within {
+  transform: translateY(80px);
 }
 .reply i {
   opacity: 0.6;
@@ -94,6 +98,17 @@
 .reply .reply__column:last-child {
   width: 90%;
 }
+.reply .reply__column:first-child {
+  transition: opacity 0.3s ease-in-out;
+}
+.reply:focus-within .reply__column:first-child {
+  opacity: 0;
+  visibility: hidden;
+}
+.reply:focus-within .message-box {
+  width: 90vw;
+  transform: translateX(-10%) translateY(-90px);
+}
 .message-box {
   position: relative;
   width: 100%;
@@ -105,6 +120,8 @@
   outline: none;
   display: flex;
   align-items: center;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
 }
 .message-box input {
   width: 75%;

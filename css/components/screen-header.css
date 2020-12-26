@@ -18,3 +18,14 @@
   display: block;
   position: relative;
 }
+.screen-header__icons span .fa-cog:hover {
+  animation: spin__cog 0.5s linear;
+}
+@keyframes spin__cog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}

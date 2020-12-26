@@ -6,6 +6,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 3;
 }
 .alt-screen-header__column {
   flex-basis: 33.3%;

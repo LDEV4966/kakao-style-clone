@@ -16,6 +16,7 @@
 @import "components/user-component.css";
 @import "components/main-screen.css";
 @import "components/badge.css";
+@import "components/no-mobile.css";
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
