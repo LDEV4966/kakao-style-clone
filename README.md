@@ -1,5 +1,6 @@
-# kakao-style-clone
-practice CSS and HTML with kakao-clone
+# kakao-style-clone  
 
-#  result
-<a href = "https://leeseungmin4966.github.io/kakao-style-clone/">click here</a> 
+Practice CSS and HTML with kakao-clone
+
+#  result URL
+<a href = "https://leeseungmin4966.github.io/kakao-style-clone/"> click here ! </a>
